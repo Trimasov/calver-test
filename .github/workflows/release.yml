@@ -21,11 +21,13 @@ jobs:
         with:
           node-version: 24
 
-      - name: Get previous tag
+      - name: Get latest tag
         id: prev_tag
         run: |
-          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          git fetch --tags
+          TAG=$(git tag --sort=-version:refname | head -1)
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Latest tag: $TAG"
 
       - name: Calculate new CalVer version
         id: version
