@@ -1,6 +1,6 @@
 {
   "name": "calver-test",
-  "version": "2026.03.2",
+  "version": "2026.03.3",
   "private": true,
   "description": "Test repo for CalVer release automation"
 }
