@@ -9,3 +9,5 @@ When a PR is merged to `main`, GitHub Actions will:
 2. Bump version in `package.json`
 3. Update `CHANGELOG.md` with the PR title
 4. Create a git tag and GitHub Release
+
+Test change
