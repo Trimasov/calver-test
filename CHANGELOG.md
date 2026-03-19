@@ -2,6 +2,10 @@
 
 All notable changes to this project are documented in this file.
 
+## [2026.03.4] - 2026-03-19
+
+- Test change 3 (#4)
+
 ## [2026.03.3] - 2026-03-19
 
 - Test change (#1)
